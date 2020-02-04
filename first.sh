@@ -105,7 +105,7 @@ yum -y install t1lib*
 yum -y install nasm 
 yum -y install nasm*
 yum -y install zlib-devel
-yum -y install gcc 
+yum -y install mlocate 
 yum -y install automake 
 yum -y install autoconf 
 yum -y install libtool 
