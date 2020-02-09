@@ -6,6 +6,7 @@
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Since the Version4.0, you can install the platform with One-Click method, it's vary easy.
 </br>
+
 ~~~shell
 cd /opt
 git clone https://github.com/hospital-ledger/scripts.git
@@ -13,9 +14,11 @@ cd ./scripts
 chmod +777 ./*
 ./install.sh
 ~~~
+
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;/!\Good News. You can run it easily just do like these code upside. But you may need to do some other things if your cloud memory is less than 2G(2000M).
 </br>
+
 ~~~shell
 cd /opt
 git clone https://github.com/hospital-ledger/scripts.git
@@ -23,9 +26,11 @@ cd ./scripts/sh
 chmod +777 ./*
 ./swap.sh
 ~~~
+
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;You can delete the swap space like the code behind.
 </br>
+
 ~~~shell
 cd /opt
 git clone https://github.com/hospital-ledger/scripts.git
@@ -33,9 +38,11 @@ cd ./scripts/sh
 chmod +777 ./*
 ./swapdelete.sh
 ~~~
+
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;I will show you the details of the setup/install.sh working method.
 </br>
+
 ~~~shell
 git clone https://github.com/hospital-ledger/scripts.git
 cd ./scripts
@@ -52,6 +59,7 @@ chmod +777 ./first.sh
 # If the terminal output the BIG "Start" and HUGE "End", it means the environment is well, 
 # otherwise you need to check the error of it and fix it by searching the Internet by yourself.
 ~~~
+
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;The "first.sh" cost about twenty minutes on the test computer*, the "second.sh" cost about one hunderd and twenty minutes on the computer*, they don't need you to start at them, only check the result of the end of the script and make sure they are installed correctly. The "final.sh" need monitor at first, when you see the screen show the docker start to pull the image you can take a rest and about one hour later come back and check if there show the Big "Start" and Huge "End", that means the environment is well, or you need to check the error and fix it.
 </br>
