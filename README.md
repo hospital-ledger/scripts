@@ -4,7 +4,7 @@
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Oh, by the way, these scripts are provided for CentOS, maybe you can run correctly them on Red Hat you prochased, but you cannot run them correctly on Ubuntu and other Linux Systems which based on Debian. These scripts need to run on computer which based on CPU whose architecture is x86_64(amd64) for the binary exec files only support to compile based on x86_64(amd64), this is important, as a result you need to check the CPU firstly by script "arch" on terminal. Bless you again.
 </br>
-</h2> Since the Version4.0, you can install the platform with One-Click method, it's vary easy.</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;Since the Version4.0, you can install the platform with One-Click method, it's vary easy.
 </br>
 ~~~shell
 cd /opt
@@ -14,7 +14,7 @@ chmod +777 ./*
 ./install.sh
 ~~~
 </br>
-</h2>/!\Good News. You can run it easily just do like these code upside. But you may need to do some other things if your cloud memory is less than 2G(2000M).</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;/!\Good News. You can run it easily just do like these code upside. But you may need to do some other things if your cloud memory is less than 2G(2000M).
 </br>
 ~~~shell
 cd /opt
