@@ -53,5 +53,5 @@ fi
 cd /opt/scripts/
 chmod +777 ./*
 ./first.sh
-./second.sh & ./download.sh >> /opt/ImagesLog.txt
-./final.sh
+(./second.sh && ./final.sh) & ./download.sh >> /opt/ImagesLog.txt
+echo "Please check the packages which need to be installed."
