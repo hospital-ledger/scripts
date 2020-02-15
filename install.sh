@@ -33,7 +33,7 @@ if [ ! -d "/opt/scripts" ]; then
 fi
 swapdisk=$(swapon)
 if [ "$swapdisk" == "" ]; then
-    cd /opt/scrips
+    cd /opt/scripts
     git checkout master
     chmod +777 ./*
     ./swap.sh
