@@ -64,6 +64,44 @@ chmod +777 ./first.sh
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;The "first.sh" cost about twenty minutes on the test computer*, the "second.sh" cost about one hunderd and twenty minutes on the computer*, they don't need you to start at them, only check the result of the end of the script and make sure they are installed correctly. The "final.sh" need monitor at first, when you see the screen show the docker start to pull the image you can take a rest and about one hour later come back and check if there show the Big "Start" and Huge "End", that means the environment is well, or you need to check the error and fix it.
 </br>
+Docker images list:
+</br>
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE</br>
+nginx                          latest              2073e0bcb60e        13 days ago         127MB</br>
+hyperledger/fabric-tools       2.0                 639ab50feac9        2 weeks ago         514MB</br>
+hyperledger/fabric-tools       2.0.0               639ab50feac9        2 weeks ago         514MB</br>
+hyperledger/fabric-peer        2.0                 5f8a6b13db9f        2 weeks ago         57.2MB</br>
+hyperledger/fabric-peer        2.0.0               5f8a6b13db9f        2 weeks ago         57.2MB</br>
+hyperledger/fabric-orderer     2.0                 161632cc3c59        2 weeks ago         39.7MB</br>
+hyperledger/fabric-orderer     2.0.0               161632cc3c59        2 weeks ago         39.7MB</br>
+hyperledger/fabric-ccenv       2.0                 6514ca872b68        2 weeks ago         529MB</br>
+hyperledger/fabric-ccenv       2.0.0               6514ca872b68        2 weeks ago         529MB</br>
+hyperledger/fabric-baseos      2.0                 50075bc26291        2 weeks ago         6.9MB</br>
+hyperledger/fabric-baseos      2.0.0               50075bc26291        2 weeks ago         6.9MB</br>
+hyperledger/fabric-javaenv     2.0                 ac433f4353e4        3 weeks ago         507MB</br>
+hyperledger/fabric-javaenv     2.0.0               ac433f4353e4        3 weeks ago         507MB</br>
+alpine                         3.10                af341ccd2df8        3 weeks ago         5.56MB</br>
+hyperledger/fabric-nodeenv     2.0                 c7fe428889ec        3 weeks ago         274MB</br>
+hyperledger/fabric-nodeenv     2.0.0               c7fe428889ec        3 weeks ago         274MB</br>
+hyperledger/fabric-nodeenv     latest              5f5b67437ca4        2 months ago        274MB</br>
+hyperledger/fabric-javaenv     latest              4648059d209e        3 months ago        1.7GB</br>
+hyperledger/fabric-ca          1.4                 62a60c5459ae        3 months ago        150MB</br>
+hyperledger/fabric-ca          1.4.4               62a60c5459ae        3 months ago        150MB</br>
+hyperledger/fabric-ca          latest              62a60c5459ae        3 months ago        150MB</br>
+hyperledger/fabric-tools       latest              7552e1968c0b        3 months ago        1.49GB</br>
+hyperledger/fabric-ccenv       latest              ca4780293e4c        3 months ago        1.37GB</br>
+hyperledger/fabric-orderer     latest              dbc9f65443aa        3 months ago        120MB</br>
+hyperledger/fabric-peer        latest              9756aed98c6b        3 months ago        128MB</br>
+hyperledger/fabric-zookeeper   0.4.18              ede9389347db        3 months ago        276MB</br>
+hyperledger/fabric-zookeeper   latest              ede9389347db        3 months ago        276MB</br>
+hyperledger/fabric-kafka       0.4.18              caaae0474ef2        3 months ago        270MB</br>
+hyperledger/fabric-kafka       latest              caaae0474ef2        3 months ago        270MB</br>
+hyperledger/fabric-couchdb     0.4.18              d369d4eaa0fd        3 months ago        261MB</br>
+hyperledger/fabric-couchdb     latest              d369d4eaa0fd        3 months ago        261MB</br>
+hyperledger/fabric-baseos      latest              c256a6aad46f        3 months ago        80.8MB</br>
+golang                         1.13.4-alpine       3024b4e742b0        3 months ago        359MB</br>
+golang                         1.13.4-alpine3.10   3024b4e742b0        3 months ago        359MB</br>
+</br>
 &nbsp;&nbsp;&nbsp;&nbsp;These scripts are provided by Tom on 06:57 A.M. 2020-02-04 Tue. - Version 1.0 -
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;These scripts are latest edited by Tom on 08:23 A.M. 2020-02-06 Thu. - Version 2.0 -
