@@ -1,5 +1,5 @@
-# Scripts
-&nbsp;&nbsp;&nbsp;&nbsp;This is the first project of myself.
+# Quick Setup Scripts
+&nbsp;&nbsp;&nbsp;&nbsp;This is the first project of myself, there exist a lot of issues need to be solved. This installation depend on the Internet environment, if the Internet is good, these processes will cost about 4-6 hours with single-core computer, 3-4 hours with dual-core computer or higher configuration.
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;These scripts can help us to set up the environment of the fabric quickly and easily. Although I have paste them into several files, there still some rules need to obey and follow. Firstly, you need to clone the scripts on the computer, maybe you can do like behind scripts, perhaps it is useful. Bless you. 
 </br>
