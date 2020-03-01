@@ -10,7 +10,6 @@ Version-4.0: It provides a method for users to install the network on Ubuntu 18.
 
 Installer: It provides a method for users to install the network quickly, you can follow the steps under. Now you can install with the installer, you can change the Version in the "installer.sh", the latest Version is recommended, you also can edit it with the element in the support list. You can get the guide in "installer.sh".
 
-![image-20200301180127054](C:\Users\Eternally Ascend\AppData\Roaming\Typora\typora-user-images\image-20200301180127054.png)
 
 ## Support List
 
@@ -123,7 +122,5 @@ docker pull hyperledger/fabric-tools:latest
 
 Nankai University 2020 &copy; All Rights Reserved.
 
-```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-```
+
 
