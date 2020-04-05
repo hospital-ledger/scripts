@@ -18,7 +18,7 @@ Installer: It provides a method for users to install the network quickly, you ca
 | 2020-01-18 Tue. | Version-1.0/2.0 | 1.0/2.0 | Abandoned             | First Scripts for installing. |
 | 2020-02-08 Sat. | Version-3.0     | 3.0     | Active(Not Recommend) | CentOS 7(Time consuming).     |
 | 2020-02-22 Sat. | Version-4.0     | 4.0     | Active(Stable)        | Add Ubuntu and tidy codes.    |
-| Later           | Version-4.1     | 4.1     | Planning              | Improve the log for error.    |
+| 2020-04-06 Mon. | Version-4.1     | 4.1     | Planning              | Improve the log for error.    |
 
 ## Installing Steps
 
