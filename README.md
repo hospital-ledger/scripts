@@ -1,6 +1,8 @@
 # Quickly Install and Setup Scripts (QISS)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The branch Version-1.0 and Version-2.0 are abandoned, this master branch only support the install for Version-3.0 and higher Version. It is my first time to build a big project, I'm sincerely hope that you can help me to improve the level of coding and designing.
+<p align="right">For Version 4.1+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The branch from Version-1.0 to Version-4.0 are abandoned, this master branch only support the install for Version-4.1 and higher Version. It is my first time to build a big project, I'm sincerely hope that you can help me to improve the level of coding and designing.
 
 ## Features
 
@@ -8,17 +10,22 @@ Version-3.0: It provides a method for users to install the network on CentOS 7 c
 
 Version-4.0: It provides a method for users to install the network on Ubuntu 18.04.3 LTS Version and CentOS 7 computer with X86_64 CPU which with more than 40G Disk free and more than 2G Memory free. You can run them quickly by the installer in master since this version.
 
+Version-4.1: Complete the error system in some process of installing.
+
+Now, the scripts before Version-4.1 are not available in this repository anymore. You can find them in https://github.com/hospital-ledger/History-Collector/tree/master/scripts although I do not suggest you to use these scripts anymore for different errors.
+
 Installer: It provides a method for users to install the network quickly, you can follow the steps under. Now you can install with the installer, you can change the Version in the "installer.sh", the latest Version is recommended, you also can edit it with the element in the support list. You can get the guide in "installer.sh".
 
 
 ## Support List
 
-| Date            | Branch          | Version | States                | Description                   |
-| --------------- | --------------- | ------- | --------------------- | ----------------------------- |
-| 2020-01-18 Tue. | Version-1.0/2.0 | 1.0/2.0 | Abandoned             | First Scripts for installing. |
-| 2020-02-08 Sat. | Version-3.0     | 3.0     | Active(Not Recommend) | CentOS 7(Time consuming).     |
-| 2020-02-22 Sat. | Version-4.0     | 4.0     | Active(Stable)        | Add Ubuntu and tidy codes.    |
-| 2020-04-06 Mon. | Version-4.1     | 4.1     | Planning              | Improve the log for error.    |
+| Date            | Branch          | Version | States         | Description                   |
+| --------------- | --------------- | ------- | -------------- | ----------------------------- |
+| 2020-01-18 Tue. | Version-1.0/2.0 | 1.0/2.0 | Abandoned      | First Scripts for installing. |
+| 2020-02-08 Sat. | Version-3.0     | 3.0     | Abandoned      | CentOS 7(Time consuming).     |
+| 2020-02-22 Sat. | Version-4.0     | 4.0     | Abandoned      | Add Ubuntu and tidy codes.    |
+| 2020-04-06 Mon. | Version-4.1     | 4.1     | Active(Stable) | Improve the log for error.    |
+| Later           | Version-5.0     | 5.0     | Planning       | Improve compatibility.        |
 
 ## Installing Steps
 
@@ -114,6 +121,7 @@ docker pull hyperledger/fabric-tools:latest
 | alpine                       | 3.10              | 5.56M  |
 | golang                       | 1.13.4-alpine     | 359M   |
 | golang                       | 1.13.4-alpine3.10 | 359M   |
+
 ## Log Information
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The installer provides log for error and operation information, the path is "/opt/install-log", you can delete the log quickly by running the "removeLog.sh".
