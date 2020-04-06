@@ -157,7 +157,7 @@ if [ "$linux" == "\"Ubuntu\"" -o "$linux" == "\"CentOS Linux\"" ]; then
     exit
 fi
 cd /opt/cache 
-git clone htpps://github.com/hospital-ledger/scripts.git 
+git clone https://github.com/hospital-ledger/scripts.git 
 
 # Change the branch
 branch="Version-${version}"
