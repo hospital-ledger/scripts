@@ -179,7 +179,7 @@ if [ -d "/opt/cache" ]; then
     rm -r -f ./cache
 fi
 cd $path
-
+source /etc/profile
 # Record.
 date=$(date)
 
