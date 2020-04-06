@@ -77,9 +77,9 @@ echo "Docker images download at ${date}." > /opt/install-log/successed.txt
 
 echo "${images}" >> /opt/install-log/images.txt
 
-echo "Please check the Docker Images List and compare with the List on Github.com, thank you." >> /opt/install-log/images.sh
-echo "Please check the Docker Images List and compare with the List on Github.com, thank you." >> /opt/install-log/operations.sh
-echo "Please check the Docker Images List and compare with the List on Github.com, thank you." >> /opt/install-log/successed.sh
+echo "Please check the Docker Images List and compare with the List on Github.com, thank you." >> /opt/install-log/images.txt
+echo "Please check the Docker Images List and compare with the List on Github.com, thank you." >> /opt/install-log/operations.txt
+echo "Please check the Docker Images List and compare with the List on Github.com, thank you." >> /opt/install-log/successed.txt
 
 echo -e "Please check the Docker Images List and compare with the List on Github.com, thank you." 
 
