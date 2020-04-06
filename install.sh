@@ -18,11 +18,13 @@ exit
 fi
 echo -e "$user run the script $name at $timestamp." >> /opt/install-log/operations.txt
 
-./environment.sh & ./download.sh
+./environment.sh
+./download.sh
 
 ./docker.sh
 
-./goAndNodejs.sh & ./images.sh
+./goAndNodejs.sh
+./images.sh
 
 ./fabric.sh
 
