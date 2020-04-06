@@ -32,7 +32,7 @@ cp /opt/cache/scripts/bootstrap.sh /opt/go/src/github.com/hyperledger/fabric/scr
 cp -r -f /opt/cache/fabric-samples /opt/go/src/github.com/hyperledger/fabric/scripts
 cp /opt/cache/packages/hyperledger-fabric-ca-linux-amd64-1.4.4.tar.gz /opt/go/src/github.com/hyperledger/fabric/scripts/fabric-samples
 cp /opt/cache/packages/hyperledger-fabric-linux-amd64-2.0.0.tar.gz /opt/go/src/github.com/hyperledger/fabric/scripts/fabric-samples
-sudo tar -zxvf /opt/cache/packages/hyperledger-fabric-ca-linux-amd64-1.4.4.tar.gz -C /opt/go/bin
+sudo tar -zxvf /opt/cache/packages/hyperledger-fabric-ca-linux-amd64-1.4.4.tar.gz -C /opt/go
 sudo tar -zxvf /opt/cache/packages/hyperledger-fabric-ca-linux-amd64-1.4.4.tar.gz -C /root
 sudo tar -zxvf /opt/cache/packages/hyperledger-fabric-linux-amd64-2.0.0.tar.gz -C /opt/go
 sudo tar -zxvf /opt/cache/packages/hyperledger-fabric-linux-amd64-2.0.0.tar.gz -C /root
