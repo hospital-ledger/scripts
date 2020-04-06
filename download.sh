@@ -1,8 +1,8 @@
-# Install the Hospital Ledger Network for CentOS and Ubuntu.
+# Download the packages cache for the installer.
 # | - Version-4.1 - |
 #!/bin/bash
 
-name="install.sh"
+name="download.sh"
 timestamp=$(date)
 # Judge the account of the user.
 mkdir /opt/install-log
@@ -18,16 +18,24 @@ exit
 fi
 echo -e "$user run the script $name at $timestamp." >> /opt/install-log/operations.txt
 
-./environment.sh & ./download.sh
+path=$(pwd)
 
-./docker.sh
+sudo apt install git -y
+yum install git -y
 
-./goAndNodejs.sh & ./images.sh
+# clone from the gitee and GitHub.
+mkdir /opt/cache
+cd /opt/cache
+git clone https://github.com/hospital-ledger/scripts.git
+git clone https://gitee.com/Hospital-Ledger/packages.git
+git clone https://gitee.com/Hospital-Ledger/fabric.git
+git clone https://gitee.com/Hospital-Ledger/fabric-samples.git
 
-./fabric.sh
+# Return before path.
+cd path
 
-timestamp=$(date)
+# Record the log.
+date=$(date)
+echo "$name done at ${date}." >> /opt/install-log/operations.txt
 
-echo -e "The script $name finished at $timestamp." >> /opt/install-log/operations.txt
-
-# Date 2020-04-06 10:01 Mon by Tom. |- Version 4.1 -| 
+# Date 2020-02-23 11:27 Sun by Tom. |- Version 4.1 -| 
