@@ -19,5 +19,5 @@
 ## 5. goAndNodejs.sh
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will install go1.13.4 and nodejs v8.9.4 for you.
 
-## images.sh
+## 6. images.sh
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will provides the list of the necessary docker images.
