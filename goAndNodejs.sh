@@ -1,5 +1,5 @@
 # Setup the go1.13.4 and Node.js-v8.9.4 with npm 5.6.0.
-# | - Version-4.0 - |
+# | - Version-4.1 - |
 #!/bin/bash
 
 name="goAndNodejs.sh"
@@ -76,36 +76,6 @@ echo "export PATH=\$PATH:/opt/node-v8.9.4-linux-x64/bin" >> /etc/profile
 echo "export PATH=\$PATH:/opt/node-v8.9.4/bin" >> /etc/profile
 source /etc/profile
 
-# echo "Step 8/$step Install GCC."
-# sleep 1
-# echo -e "Well, let's install the GCC, it may cost a lot of time."
-# echo -e "Maybe..."
-# sleep 1
-# echo -e "Two hours."
-# cd /opt/gcc-7.3.0
-# ./contrib/download_prerequisites
-# if [ ! -d "gcc-build-7.3.0" ]; then
-#     mkdir gcc-build-7.3.0
-# fi
-# cd /opt/gcc-7.3.0/gcc-build-7.3.0
-# ../configure -enable-checking=release -enable-languages=c,c++ -disable-multilib
-# make -j 2
-# make install
-# gcc -v
-# sleep 1
-# echo "Step 9/$step Copy necessary lib to system path."
-# cd /usr/local/lib64
-# cp -r -f ./libstdc++.so.6.0.24 /usr/lib64
-# cd /usr/lib64
-# rm ./libstdc++.so.6
-# ln -s ./libstdc++.so.6.0.24 libstdc++.so.6
-# cd /opt
-# echo "Step $step/$step Install Nodejs v8.9.4."
-# cd /opt/node-v8.9.4
-# ./configure
-# make -j 2
-# make install
-# clear
 
 echo -e "Step 10/$step Check the Node.js and npm."
 node -v
@@ -132,4 +102,4 @@ if [ "${npm:0:5}" == "5.6.0" ]; then
 else echo "Nodejs npm v8.9.4 installed failed at ${date}, please run goAndNodejs.sh again or install it by yourself." >> /opt/install-log/failed.txt
 fi
 
-# Date 2020-02-22 21:17 Sat by Tom. |- Version 4.0 -| 
+# Date 2020-02-22 21:17 Sat by Tom. |- Version 4.1 -| 
