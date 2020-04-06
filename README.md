@@ -12,11 +12,12 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will install base software on computer and download docker images.
 
-## 4. fabricTest.sh
+## 4. fabric.sh
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will test the fabric network you need to check the result of it in log directory.
 
-```Go
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-```
+## 5. goAndNodejs.sh
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will install go1.13.4 and nodejs v8.9.4 for you.
 
+## images.sh
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will provides the list of the necessary docker images.
