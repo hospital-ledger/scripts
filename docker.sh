@@ -19,6 +19,7 @@ fi
 echo -e "$user run the script $name at $timestamp." >> /opt/install-log/operations.txt
 
 # Installing
+yum install docker-ce --nobest
 curl -fsSL https://get.docker.com/ | sh
 pip3 install --upgrade pip
 pip install --upgrade pip
