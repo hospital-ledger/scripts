@@ -174,10 +174,10 @@ output=$(git checkout $branch)
 # fi
 
 # Delete cache
-if [ -d "/opt/cache" ]; then
-    cd /opt
-    rm -r -f ./cache
-fi
+# if [ -d "/opt/cache" ]; then
+#     cd /opt
+#     rm -r -f ./cache
+# fi
 cd $path
 source /etc/profile
 # Record.
