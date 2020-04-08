@@ -143,7 +143,7 @@ fi
 echo -e "$user run the script $name at $timestamp." >> /opt/install-log/operations.txt
 
 # Clone the scripts to Cache
-
+step=10
 # Choosing the Linux Version.
 echo "Step 3/$step Check the Linux Version and install the packages of them."
 linux=$(awk -F= '/^NAME/{print $2}' /etc/os-release)
