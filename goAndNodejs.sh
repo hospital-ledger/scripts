@@ -69,6 +69,8 @@ echo "export GOPATH=/root/gopath" >> /etc/profile
 source /etc/profile
 clear
 echo -e "Step 8/$step Check the Go Version."
+go env -w GOPROXY=https://goproxy.cn
+export GOPROXY=https://goproxy.cn
 go version
 
 echo -e "Step 9/$step Install Node.js."
@@ -87,8 +89,9 @@ date=$(date)
 echo "goAndNodejs.sh end at ${date}." >> /opt/install-log/running.txt
 
 # Check the status of packages and tecord the log.
-docker=$(docker -v)
-dockerc=$(docker-compose -v)
+go=$(go version)
+node=$(node -v)
+npm=$(npm -v)
 if [ "${go}" == "go version go1.13.4 linux/amd64" ]; then
     echo "Go1.13.4 linux/amd64 installed successfully at ${date}." >> /opt/install-log/successed.txt
 else echo "Go1.13.4 linux/amd64 installed failed at ${date}, please run goAndNodejs.sh again or install it by yourself." >> /opt/install-log/failed.txt
