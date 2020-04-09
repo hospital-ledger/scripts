@@ -126,6 +126,37 @@ docker pull hyperledger/fabric-tools:latest
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The installer provides log for error and operation information, the path is "/opt/install-log", you can delete the log quickly by running the "removeLog.sh".
 
+
+## Relationship
+<center>
+```
+                                        							   Version-4.1
+							   
+                                        									   
+                                        							   installer.sh
+                                        							   	    |
+                                        							   	    |
+                                        						      install.sh
+                                        							   	    |   
+                                        							   	    |
+                                        							  environment.sh
+                                        							  |		          |
+                                        							  |		          |
+	                                        				download.sh    docker.sh
+	                                        						  |		          |
+                                        							  |		          |
+                                        				goAndNodejs.sh    images.sh
+	                                        						  |	          	|
+	                                        						  |	          	|
+	                                        						   \	         /
+		                                        					     fabric.sh
+				                                        			  	     |
+				                                        			  	     |
+					                                        		     Finished
+									  	 
+		                                    You also need to check after install finished.
+```
+</center>
 </hr>
 
 Nankai University 2020 &copy; All Rights Reserved.
