@@ -1,5 +1,7 @@
 # Scripts Version-4.1 Introduction
-···mermaid
+
+
+```mermaid
 graph TD
 Relationship
 installer.sh-->install.sh
@@ -12,7 +14,9 @@ docker.sh-->images.sh
 goAndNodejs.sh-->fabric.sh
 images.sh-->fabric.sh
 fabric.sh-->Finished
-···
+```
+
+
 ## 1. installer.sh
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It provides method for you to choose install scripts version. I abandoned all version before Version 4.1 for their errors on 2020.04.06 Mon. This file will stay the same only keep updating version information continuously.
