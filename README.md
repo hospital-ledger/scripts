@@ -1,24 +1,36 @@
-markdown:kramdown
-kramdown:
-    input:GFM
-    
 # Scripts Version-4.1 Introduction
 
 
-```mermaid
-graph TD
-Relationship
-installer.sh-->install.sh
-Version-4.1
-install.sh-->environment.sh
-environment.sh-->download.sh
-environment.sh-->docker.sh
-download.sh-->goAndNodejs.sh
-docker.sh-->images.sh
-goAndNodejs.sh-->fabric.sh
-images.sh-->fabric.sh
-fabric.sh-->Finished
+<center>
+    
+</center>
+
 ```
+Relationship:
+									   Version-4.1
+									   
+									   installer.sh
+									   		|
+									   		|
+									   	install.sh
+									   		|
+									   		|
+									  environment.sh
+									  |			   |
+									  |			   |
+								goAndNodejs.sh	docker.sh
+									  |			   |
+									  |			   |
+									   \		  /
+									  	 fabric.sh
+									  	 	|
+									  	 	|
+									  	 Finished
+									  	 
+						You also need to check after install finished.
+```
+
+</center>
 
 
 ## 1. installer.sh
