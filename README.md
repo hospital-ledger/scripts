@@ -2,8 +2,6 @@
 
 
 <center>
-    
-</center>
 
 ```
 Relationship
@@ -20,7 +18,10 @@ Relationship
 							  environment.sh
 							  |		|
 							  |		|
-						  goAndNodejs.sh    docker.sh
+						     download.sh    docker.sh
+							  |		|
+							  |		|
+						  goAndNodejs.sh    images.sh
 							  |		|
 							  |		|
 							   \	       /
