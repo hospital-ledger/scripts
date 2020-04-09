@@ -129,33 +129,39 @@ docker pull hyperledger/fabric-tools:latest
 
 ## Relationship
 <center>
+	
 ```
-                                        							   Version-4.1
+
+Relationship
+
+							   Version-4.1
 							   
-                                        									   
-                                        							   installer.sh
-                                        							   	    |
-                                        							   	    |
-                                        						      install.sh
-                                        							   	    |   
-                                        							   	    |
-                                        							  environment.sh
-                                        							  |		          |
-                                        							  |		          |
-	                                        				download.sh    docker.sh
-	                                        						  |		          |
-                                        							  |		          |
-                                        				goAndNodejs.sh    images.sh
-	                                        						  |	          	|
-	                                        						  |	          	|
-	                                        						   \	         /
-		                                        					     fabric.sh
-				                                        			  	     |
-				                                        			  	     |
-					                                        		     Finished
+									   
+							   installer.sh
+							   	|
+							   	|
+						            install.sh
+							   	|
+							   	|
+							  environment.sh
+							  |		|
+							  |		|
+						     download.sh    docker.sh
+							  |		|
+							  |		|
+						  goAndNodejs.sh    images.sh
+							  |		|
+							  |		|
+							   \	       /
+							     fabric.sh
+							  	 |
+							  	 |
+							     Finished
 									  	 
-		                                    You also need to check after install finished.
+					You also need to check after install finished.
+
 ```
+
 </center>
 </hr>
 
